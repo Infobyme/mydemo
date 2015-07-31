@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\LHWorkspace\MyDemo\libs\pinyin4j-1.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ae41e3d74264a23daf8f6458e62ec48c6f657a52">
+        <dex dex="D:\LHWorkspace\MyDemo\build\intermediates\pre-dexed\debug\pinyin4j-1.1.0-e175e7875783c4bf16e7f4ac4cdd8055a8c69022.jar" />
+    </item>
+    <item
+        jar="D:\LHWorkspace\MyDemo\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="D:\LHWorkspace\MyDemo\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-2527b10652a7697f2253cd70182471b462671b2d.jar" />
+    </item>
+    <item
+        jar="D:\LHWorkspace\MyDemo\libs\android-support-v7-appcompat.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d2fe9245d9ae17c490dbb97017f435a424fe6d38">
+        <dex dex="D:\LHWorkspace\MyDemo\build\intermediates\pre-dexed\debug\android-support-v7-appcompat-24e98536c49b10241404000622cd2470bd120038.jar" />
+    </item>
+    <item
+        jar="D:\LHWorkspace\MyDemo\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9b6a9a9078af571732159b904ad423b03b7cc786">
+        <dex dex="D:\LHWorkspace\MyDemo\build\intermediates\pre-dexed\debug\android-support-v4-190ab9b3414c45f27acf55b12bd664f207d43885.jar" />
+    </item>
+
+</items>
