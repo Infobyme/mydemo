@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\LHWorkspace\MyDemo\assets"/></dataSet><dataSet config="debug"><source path="D:\LHWorkspace\MyDemo\build-types\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="E:\test\MyDemo\assets"/></dataSet><dataSet config="debug"><source path="E:\test\MyDemo\build-types\debug\assets"/></dataSet></merger>
