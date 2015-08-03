@@ -18,34 +18,36 @@ public final class R {
     }
     public static final class id {
         public static final int ansyctask_list=0x7f070000;
-        public static final int barrage_list=0x7f070005;
-        public static final int barrage_root=0x7f070004;
-        public static final int city_list=0x7f070006;
+        public static final int barrage_list=0x7f070006;
+        public static final int barrage_root=0x7f070005;
+        public static final int city_list=0x7f070007;
         public static final int customview_view=0x7f070001;
-        public static final int fragmenttabhost=0x7f070009;
-        public static final int item_ansyctask_image=0x7f070002;
-        public static final int item_ansyctask_message=0x7f070003;
-        public static final int item_city_context=0x7f070008;
-        public static final int item_city_nav=0x7f070007;
-        public static final int main_list=0x7f07000c;
-        public static final int tab_item_image=0x7f07000d;
-        public static final int tab_item_text=0x7f07000e;
-        public static final int tabhost_content=0x7f07000b;
-        public static final int tabs=0x7f07000a;
-        public static final int test=0x7f07000f;
+        public static final int fragmenttabhost=0x7f07000a;
+        public static final int intentservice_root=0x7f070002;
+        public static final int item_ansyctask_image=0x7f070003;
+        public static final int item_ansyctask_message=0x7f070004;
+        public static final int item_city_context=0x7f070009;
+        public static final int item_city_nav=0x7f070008;
+        public static final int main_list=0x7f07000d;
+        public static final int tab_item_image=0x7f07000e;
+        public static final int tab_item_text=0x7f07000f;
+        public static final int tabhost_content=0x7f07000c;
+        public static final int tabs=0x7f07000b;
+        public static final int test=0x7f070010;
     }
     public static final class layout {
         public static final int activity_ansyctask=0x7f030000;
         public static final int activity_customview=0x7f030001;
-        public static final int item_ansyctask=0x7f030002;
-        public static final int layout_barrage=0x7f030003;
-        public static final int layout_city=0x7f030004;
-        public static final int layout_city_item=0x7f030005;
-        public static final int layout_fragment_tabhost=0x7f030006;
-        public static final int layout_item_text=0x7f030007;
-        public static final int layout_main=0x7f030008;
-        public static final int layout_tab_item=0x7f030009;
-        public static final int layout_test=0x7f03000a;
+        public static final int activity_intentservice=0x7f030002;
+        public static final int item_ansyctask=0x7f030003;
+        public static final int layout_barrage=0x7f030004;
+        public static final int layout_city=0x7f030005;
+        public static final int layout_city_item=0x7f030006;
+        public static final int layout_fragment_tabhost=0x7f030007;
+        public static final int layout_item_text=0x7f030008;
+        public static final int layout_main=0x7f030009;
+        public static final int layout_tab_item=0x7f03000a;
+        public static final int layout_test=0x7f03000b;
     }
     public static final class string {
         public static final int app_name=0x7f060000;

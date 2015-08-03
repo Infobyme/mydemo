@@ -27,6 +27,9 @@
         <activity android:name="com.ty.demo.activity.CustomViewActivity" />
         <activity android:name="com.ty.demo.activity.BarrageActivity" />
         <activity android:name="com.ty.demo.activity.AnsyTaskActivity" />
+        <activity android:name="com.ty.demo.activity.IntnetServerActivity" />
+
+        <service android:name="com.ty.demo.service.UpImageLoadService" />
     </application>
 
 </manifest>

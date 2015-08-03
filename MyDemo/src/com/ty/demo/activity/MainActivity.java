@@ -40,6 +40,7 @@ public class MainActivity extends Activity {
 		demoList.add("CustomView");
 		demoList.add("Barrage");
 		demoList.add("AsyncTaskError");
+		demoList.add("IntentService");
 		
 	}
 
@@ -66,6 +67,8 @@ public class MainActivity extends Activity {
 					CommonUtil.toClazz(MainActivity.this, BarrageActivity.class);
 				}else if (type.equals("AsyncTaskError")) {
 					CommonUtil.toClazz(MainActivity.this, AnsyTaskActivity.class);
+				}else if (type.equals("IntentService")) {
+					CommonUtil.toClazz(MainActivity.this, IntnetServerActivity.class);
 				}
 				
 			}

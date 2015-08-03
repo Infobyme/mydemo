@@ -63,3 +63,11 @@ activity#com.ty.demo.activity.AnsyTaskActivity
 ADDED from AndroidManifest.xml:29:9
 	android:name
 		ADDED from AndroidManifest.xml:29:19
+activity#com.ty.demo.activity.IntnetServerActivity
+ADDED from AndroidManifest.xml:30:9
+	android:name
+		ADDED from AndroidManifest.xml:30:19
+service#com.ty.demo.service.UpImageLoadService
+ADDED from AndroidManifest.xml:32:9
+	android:name
+		ADDED from AndroidManifest.xml:32:18
