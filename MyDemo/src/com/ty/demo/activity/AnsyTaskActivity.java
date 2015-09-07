@@ -22,6 +22,8 @@ public class AnsyTaskActivity  extends BaseActivity{
         setContentView(R.layout.activity_ansyctask);
 
         initView();
+
+        //this is test
     }
 
     @Override

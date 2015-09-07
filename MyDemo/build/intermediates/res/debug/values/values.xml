@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/E:/test/MyDemo/res/values/strings.xml -->
+    <!-- From: file:/E:/mydemo/MyDemo/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="city_data">
         <item>北京</item>
@@ -38,7 +38,7 @@
     </string-array>
     <color name="background_color">#6699ff</color>
     <string name="app_name">MyDemo</string>
-    <!-- From: file:/E:/test/MyDemo/res/values/styles.xml -->
+    <!-- From: file:/E:/mydemo/MyDemo/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
         <!--

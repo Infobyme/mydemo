@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\test\MyDemo\src\androidTest\res"/><source path="E:\test\MyDemo\build\generated\res\rs\androidTest\debug"/><source path="E:\test\MyDemo\build\generated\res\generated\androidTest\debug"/></dataSet><mergedItems/></merger>
+<merger version="3"><dataSet config="main"><source path="E:\mydemo\MyDemo\src\androidTest\res"/><source path="E:\mydemo\MyDemo\build\generated\res\rs\androidTest\debug"/><source path="E:\mydemo\MyDemo\build\generated\res\generated\androidTest\debug"/></dataSet><mergedItems/></merger>
