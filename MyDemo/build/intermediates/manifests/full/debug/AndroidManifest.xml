@@ -28,8 +28,12 @@
         <activity android:name="com.ty.demo.activity.BarrageActivity" />
         <activity android:name="com.ty.demo.activity.AnsyTaskActivity" />
         <activity android:name="com.ty.demo.activity.IntnetServerActivity" />
+        <activity android:name="com.ty.demo.activity.PracticeServiceActivity" />
+        <activity android:name="com.ty.demo.activity.ProgressBarActivity" />
+        <activity android:name="com.ty.demo.activity.PropertyAnimationActivity" />
 
         <service android:name="com.ty.demo.service.UpImageLoadService" />
+        <service android:name="com.ty.demo.service.PracticeService" />
     </application>
 
 </manifest>

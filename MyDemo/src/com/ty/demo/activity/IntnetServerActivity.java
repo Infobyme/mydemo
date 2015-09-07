@@ -32,9 +32,9 @@ public class IntnetServerActivity extends BaseActivity {
         setContentView(R.layout.activity_intentservice);
         initView();
 
-        IntentFilter filter=new IntentFilter(UPLOAD_RESTULT);
+        IntentFilter filter = new IntentFilter(UPLOAD_RESTULT);
 
-        registerReceiver(upLoadImageReceiver,filter);
+        registerReceiver(upLoadImageReceiver, filter);
     }
 
     @Override
@@ -48,6 +48,7 @@ public class IntnetServerActivity extends BaseActivity {
 
     /**
      * 添加一个IntentService
+     *
      * @param veiw
      */
     public void addTask(View veiw) {
@@ -72,13 +73,13 @@ public class IntnetServerActivity extends BaseActivity {
         public void onReceive(Context context, Intent intent) {
 
 
-                String path = intent.getStringExtra(UpImageLoadService.EXTRA_IMG_PATH);
+            String path = intent.getStringExtra(UpImageLoadService.EXTRA_IMG_PATH);
 
-                TextView tv = (TextView) rootLayout.findViewWithTag(path);
+            TextView tv = (TextView) rootLayout.findViewWithTag(path);
 
-                tv.setText(path + " upload success");
+            tv.setText(path + " upload success");
 
-            Toast.makeText(baseContext,"BroadcastReceiver",Toast.LENGTH_SHORT);
+            Toast.makeText(baseContext, "BroadcastReceiver", Toast.LENGTH_SHORT);
         }
     };
 

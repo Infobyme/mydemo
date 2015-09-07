@@ -41,7 +41,6 @@ public class CustomView extends View implements Runnable{
 	}
 
 	private void initPaint() {
-		// ʵ�������ʲ���ʼ��
 		mPatin = new Paint(Paint.ANTI_ALIAS_FLAG);
 		mTxtPatin=new Paint(Paint.ANTI_ALIAS_FLAG);
 

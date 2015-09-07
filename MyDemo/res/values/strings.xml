@@ -2,6 +2,7 @@
 
     <string name="app_name">MyDemo</string>
 
+    <color name="background_color">#6699ff</color>
     
     <string-array name="city_data">
         <item>北京</item>

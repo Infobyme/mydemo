@@ -41,6 +41,9 @@ public class MainActivity extends Activity {
 		demoList.add("Barrage");
 		demoList.add("AsyncTaskError");
 		demoList.add("IntentService");
+		demoList.add("PractiveService");
+		demoList.add("ProgressBar");
+		demoList.add("PropertyAnimation");
 		
 	}
 
@@ -69,6 +72,12 @@ public class MainActivity extends Activity {
 					CommonUtil.toClazz(MainActivity.this, AnsyTaskActivity.class);
 				}else if (type.equals("IntentService")) {
 					CommonUtil.toClazz(MainActivity.this, IntnetServerActivity.class);
+				}else if (type.equals("PractiveService")) {
+					CommonUtil.toClazz(MainActivity.this, PracticeServiceActivity.class);
+				}else if (type.equals("ProgressBar")) {
+					CommonUtil.toClazz(MainActivity.this, ProgressBarActivity.class);
+				}else if (type.equals("PropertyAnimation")) {
+					CommonUtil.toClazz(MainActivity.this, PropertyAnimationActivity.class);
 				}
 				
 			}
