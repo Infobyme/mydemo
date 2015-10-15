@@ -44,6 +44,7 @@ public class MainActivity extends Activity {
 		demoList.add("PractiveService");
 		demoList.add("ProgressBar");
 		demoList.add("PropertyAnimation");
+		demoList.add("RecyclerViewActivity");
 		
 	}
 
@@ -78,6 +79,8 @@ public class MainActivity extends Activity {
 					CommonUtil.toClazz(MainActivity.this, ProgressBarActivity.class);
 				}else if (type.equals("PropertyAnimation")) {
 					CommonUtil.toClazz(MainActivity.this, PropertyAnimationActivity.class);
+				}else if (type.equals("RecyclerViewActivity")) {
+					CommonUtil.toClazz(MainActivity.this, RecyclerViewActivity.class);
 				}
 				
 			}

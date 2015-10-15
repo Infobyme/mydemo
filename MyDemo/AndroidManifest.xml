@@ -31,6 +31,7 @@
         <activity android:name="com.ty.demo.activity.PracticeServiceActivity"></activity>
         <activity android:name="com.ty.demo.activity.ProgressBarActivity"></activity>
         <activity android:name="com.ty.demo.activity.PropertyAnimationActivity"></activity>
+        <activity android:name="com.ty.demo.activity.RecyclerViewActivity"></activity>
 
         <service android:name=".service.UpImageLoadService"></service>
         <service android:name=".service.PracticeService"></service>

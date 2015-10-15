@@ -13,12 +13,16 @@ ADDED from AndroidManifest.xml:1:1
 		ADDED from AndroidManifest.xml:1:11
 uses-sdk
 ADDED from AndroidManifest.xml:6:5
+MERGED from com.android.support:recyclerview-v7:21.0.0:15:5
+MERGED from com.android.support:support-v4:21.0.0:15:5
 	android:targetSdkVersion
 		ADDED from AndroidManifest.xml:8:9
 	android:minSdkVersion
 		ADDED from AndroidManifest.xml:7:9
 application
 ADDED from AndroidManifest.xml:10:5
+MERGED from com.android.support:recyclerview-v7:21.0.0:17:5
+MERGED from com.android.support:support-v4:21.0.0:16:5
 	android:label
 		ADDED from AndroidManifest.xml:13:9
 	android:allowBackup
@@ -79,11 +83,21 @@ activity#com.ty.demo.activity.PropertyAnimationActivity
 ADDED from AndroidManifest.xml:33:9
 	android:name
 		ADDED from AndroidManifest.xml:33:19
-service#com.ty.demo.service.UpImageLoadService
-ADDED from AndroidManifest.xml:35:9
+activity#com.ty.demo.activity.RecyclerViewActivity
+ADDED from AndroidManifest.xml:34:9
 	android:name
-		ADDED from AndroidManifest.xml:35:18
-service#com.ty.demo.service.PracticeService
+		ADDED from AndroidManifest.xml:34:19
+service#com.ty.demo.service.UpImageLoadService
 ADDED from AndroidManifest.xml:36:9
 	android:name
 		ADDED from AndroidManifest.xml:36:18
+service#com.ty.demo.service.PracticeService
+ADDED from AndroidManifest.xml:37:9
+	android:name
+		ADDED from AndroidManifest.xml:37:18
+activity#android.support.v7.widget.TestActivity
+ADDED from com.android.support:recyclerview-v7:21.0.0:18:9
+	android:label
+		ADDED from com.android.support:recyclerview-v7:21.0.0:18:19
+	android:name
+		ADDED from com.android.support:recyclerview-v7:21.0.0:18:60

@@ -31,9 +31,14 @@
         <activity android:name="com.ty.demo.activity.PracticeServiceActivity" />
         <activity android:name="com.ty.demo.activity.ProgressBarActivity" />
         <activity android:name="com.ty.demo.activity.PropertyAnimationActivity" />
+        <activity android:name="com.ty.demo.activity.RecyclerViewActivity" />
 
         <service android:name="com.ty.demo.service.UpImageLoadService" />
         <service android:name="com.ty.demo.service.PracticeService" />
+
+        <activity
+            android:name="android.support.v7.widget.TestActivity"
+            android:label="RecyclerViewTestActivity" />
     </application>
 
 </manifest>

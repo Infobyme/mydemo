@@ -31,12 +31,12 @@ public final class R {
     public static final class id {
         public static final int animation_imageview=0x7f080007;
         public static final int ansyctask_list=0x7f080000;
-        public static final int barrage_list=0x7f080013;
-        public static final int barrage_root=0x7f080012;
+        public static final int barrage_list=0x7f080015;
+        public static final int barrage_root=0x7f080014;
         public static final int bind_service=0x7f080005;
-        public static final int city_list=0x7f080014;
+        public static final int city_list=0x7f080016;
         public static final int customview_view=0x7f080001;
-        public static final int fragmenttabhost=0x7f080017;
+        public static final int fragmenttabhost=0x7f080019;
         public static final int image1=0x7f080008;
         public static final int image2=0x7f080009;
         public static final int image3=0x7f08000a;
@@ -46,18 +46,20 @@ public final class R {
         public static final int image7=0x7f08000e;
         public static final int image8=0x7f08000f;
         public static final int intentservice_root=0x7f080002;
-        public static final int item_ansyctask_image=0x7f080010;
-        public static final int item_ansyctask_message=0x7f080011;
-        public static final int item_city_context=0x7f080016;
-        public static final int item_city_nav=0x7f080015;
-        public static final int main_list=0x7f08001a;
+        public static final int item_ansyctask_image=0x7f080011;
+        public static final int item_ansyctask_message=0x7f080012;
+        public static final int item_city_context=0x7f080018;
+        public static final int item_city_nav=0x7f080017;
+        public static final int item_recycleview_text=0x7f080013;
+        public static final int main_list=0x7f08001c;
+        public static final int recyclerview=0x7f080010;
         public static final int start_service=0x7f080003;
         public static final int stop_service=0x7f080004;
-        public static final int tab_item_image=0x7f08001b;
-        public static final int tab_item_text=0x7f08001c;
-        public static final int tabhost_content=0x7f080019;
-        public static final int tabs=0x7f080018;
-        public static final int test=0x7f08001d;
+        public static final int tab_item_image=0x7f08001d;
+        public static final int tab_item_text=0x7f08001e;
+        public static final int tabhost_content=0x7f08001b;
+        public static final int tabs=0x7f08001a;
+        public static final int test=0x7f08001f;
         public static final int unbind_service=0x7f080006;
     }
     public static final class layout {
@@ -68,15 +70,17 @@ public final class R {
         public static final int activity_progressbar=0x7f030004;
         public static final int activity_propertyanimation=0x7f030005;
         public static final int activity_propertyanimationz_menu=0x7f030006;
-        public static final int item_ansyctask=0x7f030007;
-        public static final int layout_barrage=0x7f030008;
-        public static final int layout_city=0x7f030009;
-        public static final int layout_city_item=0x7f03000a;
-        public static final int layout_fragment_tabhost=0x7f03000b;
-        public static final int layout_item_text=0x7f03000c;
-        public static final int layout_main=0x7f03000d;
-        public static final int layout_tab_item=0x7f03000e;
-        public static final int layout_test=0x7f03000f;
+        public static final int activity_recyclerview=0x7f030007;
+        public static final int item_ansyctask=0x7f030008;
+        public static final int item_recycleview=0x7f030009;
+        public static final int layout_barrage=0x7f03000a;
+        public static final int layout_city=0x7f03000b;
+        public static final int layout_city_item=0x7f03000c;
+        public static final int layout_fragment_tabhost=0x7f03000d;
+        public static final int layout_item_text=0x7f03000e;
+        public static final int layout_main=0x7f03000f;
+        public static final int layout_tab_item=0x7f030010;
+        public static final int layout_test=0x7f030011;
     }
     public static final class string {
         public static final int app_name=0x7f070000;
