@@ -7,6 +7,8 @@
         android:minSdkVersion="11"
         android:targetSdkVersion="17" />
 
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -32,9 +34,22 @@
         <activity android:name="com.ty.demo.activity.ProgressBarActivity"></activity>
         <activity android:name="com.ty.demo.activity.PropertyAnimationActivity"></activity>
         <activity android:name="com.ty.demo.activity.RecyclerViewActivity"></activity>
+        <activity android:name="com.ty.demo.activity.AidlActivity"></activity>
+        <activity android:name="com.ty.demo.activity.SingleInstanceActivity" android:launchMode="singleTask" android:allowTaskReparenting="true" android:taskAffinity="com.tongyang.test"></activity>
+        <activity android:name="com.ty.demo.activity.SqliteActivity"></activity>
 
         <service android:name=".service.UpImageLoadService"></service>
         <service android:name=".service.PracticeService"></service>
+        <service android:name=".service.PersonService">
+            <intent-filter>
+                <action android:name="forServiceAidl"></action>
+            </intent-filter>
+        </service>
+        
+        <provider
+            android:authorities="com.tongyang.database.provider"
+            android:exported="true"
+            android:name="com.ty.demo.provider.DataBaseProvider"/>
     </application>
 
 </manifest>

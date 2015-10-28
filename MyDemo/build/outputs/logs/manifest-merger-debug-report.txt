@@ -13,91 +13,128 @@ ADDED from AndroidManifest.xml:1:1
 		ADDED from AndroidManifest.xml:1:11
 uses-sdk
 ADDED from AndroidManifest.xml:6:5
-MERGED from com.android.support:recyclerview-v7:21.0.0:15:5
-MERGED from com.android.support:support-v4:21.0.0:15:5
+MERGED from com.android.support:recyclerview-v7:22.2.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
 	android:targetSdkVersion
 		ADDED from AndroidManifest.xml:8:9
 	android:minSdkVersion
 		ADDED from AndroidManifest.xml:7:9
-application
+uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from AndroidManifest.xml:10:5
-MERGED from com.android.support:recyclerview-v7:21.0.0:17:5
-MERGED from com.android.support:support-v4:21.0.0:16:5
+	android:name
+		ADDED from AndroidManifest.xml:10:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+application
+ADDED from AndroidManifest.xml:12:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
 	android:label
-		ADDED from AndroidManifest.xml:13:9
+		ADDED from AndroidManifest.xml:15:9
 	android:allowBackup
-		ADDED from AndroidManifest.xml:11:9
+		ADDED from AndroidManifest.xml:13:9
 	android:icon
-		ADDED from AndroidManifest.xml:12:9
-	android:theme
 		ADDED from AndroidManifest.xml:14:9
+	android:theme
+		ADDED from AndroidManifest.xml:16:9
 activity#com.ty.demo.activity.MainActivity
-ADDED from AndroidManifest.xml:15:9
+ADDED from AndroidManifest.xml:17:9
 	android:label
-		ADDED from AndroidManifest.xml:17:13
+		ADDED from AndroidManifest.xml:19:13
 	android:name
-		ADDED from AndroidManifest.xml:16:13
+		ADDED from AndroidManifest.xml:18:13
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:18:13
+ADDED from AndroidManifest.xml:20:13
 action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:19:17
-	android:name
-		ADDED from AndroidManifest.xml:19:25
-category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:21:17
 	android:name
-		ADDED from AndroidManifest.xml:21:27
+		ADDED from AndroidManifest.xml:21:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:23:17
+	android:name
+		ADDED from AndroidManifest.xml:23:27
 activity#com.ty.demo.activity.FramentTagHostActivity
-ADDED from AndroidManifest.xml:25:9
-	android:name
-		ADDED from AndroidManifest.xml:25:19
-activity#com.ty.demo.activity.CitySeleorActivity
-ADDED from AndroidManifest.xml:26:9
-	android:name
-		ADDED from AndroidManifest.xml:26:19
-activity#com.ty.demo.activity.CustomViewActivity
 ADDED from AndroidManifest.xml:27:9
 	android:name
 		ADDED from AndroidManifest.xml:27:19
-activity#com.ty.demo.activity.BarrageActivity
+activity#com.ty.demo.activity.CitySeleorActivity
 ADDED from AndroidManifest.xml:28:9
 	android:name
 		ADDED from AndroidManifest.xml:28:19
-activity#com.ty.demo.activity.AnsyTaskActivity
+activity#com.ty.demo.activity.CustomViewActivity
 ADDED from AndroidManifest.xml:29:9
 	android:name
 		ADDED from AndroidManifest.xml:29:19
-activity#com.ty.demo.activity.IntnetServerActivity
+activity#com.ty.demo.activity.BarrageActivity
 ADDED from AndroidManifest.xml:30:9
 	android:name
 		ADDED from AndroidManifest.xml:30:19
-activity#com.ty.demo.activity.PracticeServiceActivity
+activity#com.ty.demo.activity.AnsyTaskActivity
 ADDED from AndroidManifest.xml:31:9
 	android:name
 		ADDED from AndroidManifest.xml:31:19
-activity#com.ty.demo.activity.ProgressBarActivity
+activity#com.ty.demo.activity.IntnetServerActivity
 ADDED from AndroidManifest.xml:32:9
 	android:name
 		ADDED from AndroidManifest.xml:32:19
-activity#com.ty.demo.activity.PropertyAnimationActivity
+activity#com.ty.demo.activity.PracticeServiceActivity
 ADDED from AndroidManifest.xml:33:9
 	android:name
 		ADDED from AndroidManifest.xml:33:19
-activity#com.ty.demo.activity.RecyclerViewActivity
+activity#com.ty.demo.activity.ProgressBarActivity
 ADDED from AndroidManifest.xml:34:9
 	android:name
 		ADDED from AndroidManifest.xml:34:19
-service#com.ty.demo.service.UpImageLoadService
+activity#com.ty.demo.activity.PropertyAnimationActivity
+ADDED from AndroidManifest.xml:35:9
+	android:name
+		ADDED from AndroidManifest.xml:35:19
+activity#com.ty.demo.activity.RecyclerViewActivity
 ADDED from AndroidManifest.xml:36:9
 	android:name
-		ADDED from AndroidManifest.xml:36:18
-service#com.ty.demo.service.PracticeService
+		ADDED from AndroidManifest.xml:36:19
+activity#com.ty.demo.activity.AidlActivity
 ADDED from AndroidManifest.xml:37:9
 	android:name
-		ADDED from AndroidManifest.xml:37:18
-activity#android.support.v7.widget.TestActivity
-ADDED from com.android.support:recyclerview-v7:21.0.0:18:9
-	android:label
-		ADDED from com.android.support:recyclerview-v7:21.0.0:18:19
+		ADDED from AndroidManifest.xml:37:19
+activity#com.ty.demo.activity.SingleInstanceActivity
+ADDED from AndroidManifest.xml:38:9
+	android:launchMode
+		ADDED from AndroidManifest.xml:38:78
+	android:allowTaskReparenting
+		ADDED from AndroidManifest.xml:38:110
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:38:146
 	android:name
-		ADDED from com.android.support:recyclerview-v7:21.0.0:18:60
+		ADDED from AndroidManifest.xml:38:19
+activity#com.ty.demo.activity.SqliteActivity
+ADDED from AndroidManifest.xml:39:9
+	android:name
+		ADDED from AndroidManifest.xml:39:19
+service#com.ty.demo.service.UpImageLoadService
+ADDED from AndroidManifest.xml:41:9
+	android:name
+		ADDED from AndroidManifest.xml:41:18
+service#com.ty.demo.service.PracticeService
+ADDED from AndroidManifest.xml:42:9
+	android:name
+		ADDED from AndroidManifest.xml:42:18
+service#com.ty.demo.service.PersonService
+ADDED from AndroidManifest.xml:43:9
+	android:name
+		ADDED from AndroidManifest.xml:43:18
+intent-filter#forServiceAidl
+ADDED from AndroidManifest.xml:44:13
+action#forServiceAidl
+ADDED from AndroidManifest.xml:45:17
+	android:name
+		ADDED from AndroidManifest.xml:45:25
+provider#com.ty.demo.provider.DataBaseProvider
+ADDED from AndroidManifest.xml:49:9
+	android:authorities
+		ADDED from AndroidManifest.xml:50:13
+	android:exported
+		ADDED from AndroidManifest.xml:51:13
+	android:name
+		ADDED from AndroidManifest.xml:52:13

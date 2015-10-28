@@ -2,6 +2,8 @@ package com.ty.demo.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.helper.ItemTouchHelper;
+import android.support.v7.widget.helper.ItemTouchHelper.Callback;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,8 +11,10 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.ty.demo.R;
+import com.ty.demo.inface.ItemTouchHelperAdapter;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -20,7 +24,7 @@ import butterknife.ButterKnife;
 /**
  * Created by Administrator on 2015/10/15.
  */
-public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
+public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> implements ItemTouchHelperAdapter {
 
     private Context mContext;
     private List<String> mData;
@@ -69,6 +73,22 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         Log.v("TAG","getItemCount");
         return mData.size();
     }
+
+    @Override
+    public void onItemMove(int fromPosition, int toPosition) {
+
+        Collections.swap(mData,fromPosition,toPosition);
+
+        notifyItemMoved(fromPosition,toPosition);
+    }
+
+    @Override
+    public void onItemDismiss(int position) {
+
+        mData.remove(position);
+        notifyItemRemoved(position);
+    }
+
 
     class ViewHolder extends RecyclerView.ViewHolder {
         @Bind(R.id.item_recycleview_text)

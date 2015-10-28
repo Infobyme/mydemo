@@ -2,39 +2,18 @@
 <items version="2" >
 
     <item
-        jar="E:\mydemo\MyDemo\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\jars\classes.jar"
+        jar="E:\mydemo\MyDemo\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
-        <dex dex="E:\mydemo\MyDemo\build\intermediates\pre-dexed\debug\classes-f77d5d93e50758f92ab8bc8caca832b0c58bf680.jar" />
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="E:\mydemo\MyDemo\build\intermediates\pre-dexed\debug\classes-fc119fd64dd73497e61c0b5f85cad0cf885f504f.jar" />
     </item>
     <item
-        jar="D:\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jar="D:\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
-        <dex dex="E:\mydemo\MyDemo\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-b76b65b1fe9276422260c698604a040d15a30153.jar" />
-    </item>
-    <item
-        jar="E:\mydemo\MyDemo\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
-        <dex dex="E:\mydemo\MyDemo\build\intermediates\pre-dexed\debug\classes-5a42bcd7a49b883852c5c23ae20ff3d87ffee21d.jar" />
-    </item>
-    <item
-        jar="E:\mydemo\MyDemo\libs\pinyin4j-1.1.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ae41e3d74264a23daf8f6458e62ec48c6f657a52">
-        <dex dex="E:\mydemo\MyDemo\build\intermediates\pre-dexed\debug\pinyin4j-1.1.0-885f74e172818cc5e5f11de5fe4c503dabcc94cd.jar" />
-    </item>
-    <item
-        jar="E:\mydemo\MyDemo\libs\nineoldandroids-2.4.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
-        <dex dex="E:\mydemo\MyDemo\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-d154333d33cd3bd1b9d9767e1f099a5e770902b3.jar" />
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="E:\mydemo\MyDemo\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-c4b5f6c6ed6681e37e928d96fb04ede92e9e2591.jar" />
     </item>
     <item
         jar="E:\mydemo\MyDemo\libs\butterknife-7.0.1.jar"
@@ -44,11 +23,32 @@
         <dex dex="E:\mydemo\MyDemo\build\intermediates\pre-dexed\debug\butterknife-7.0.1-19cd21f104fb360cf5d1682677d7df6d79d178e2.jar" />
     </item>
     <item
-        jar="E:\mydemo\MyDemo\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\libs\internal_impl-21.0.0.jar"
+        jar="E:\mydemo\MyDemo\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
-        <dex dex="E:\mydemo\MyDemo\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-834c0ff44f12389f81b213cb601e6327468b627e.jar" />
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="E:\mydemo\MyDemo\build\intermediates\pre-dexed\debug\classes-9bed6b213d8b3b0921f5e87938d65a3bf89ff7ee.jar" />
+    </item>
+    <item
+        jar="E:\mydemo\MyDemo\libs\pinyin4j-1.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ae41e3d74264a23daf8f6458e62ec48c6f657a52">
+        <dex dex="E:\mydemo\MyDemo\build\intermediates\pre-dexed\debug\pinyin4j-1.1.0-885f74e172818cc5e5f11de5fe4c503dabcc94cd.jar" />
+    </item>
+    <item
+        jar="E:\mydemo\MyDemo\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="E:\mydemo\MyDemo\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-d7d737fd9f765278caa5935415f49712251bcacb.jar" />
+    </item>
+    <item
+        jar="E:\mydemo\MyDemo\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="E:\mydemo\MyDemo\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-d154333d33cd3bd1b9d9767e1f099a5e770902b3.jar" />
     </item>
 
 </items>
